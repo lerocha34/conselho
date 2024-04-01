@@ -1,0 +1,21 @@
+Cores:
+
+Roxo Profundo (#5D2555): Representa espiritualidade e intuição. (botões, destaques e links)
+Azul Noturno (#034078): Transmite confiança e profundidade. (fundo do site)
+Dourado (#D4AF37): Associado à sabedoria e à clarividência.(texto dos botoes,titulos, cabeçalhos)
+Cinza Claro (#D3D3D3): Para equilibrar as cores fortes e criar contraste. (texto principal)
+Fontes:
+
+Merriweather: Uma fonte serifada que é legível e tem um toque clássico.
+Lato: Uma fonte sans-serif que é moderna e amigável, ótima para botões e instruções.
+Papyrus: Para títulos ou destaques, pode evocar um sentimento antigo e manuscrito.
+
+
+PARA A CARTA
+
+Bege Palido (#f5f5dc) - Fundo da carta.
+Preto (#000) - Texto
+Roxo Profundo - Borda
+Titulo - Dourado
+Numeração da carta - Azul noturno
+Conselho - preto
