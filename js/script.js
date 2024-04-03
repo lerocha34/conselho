@@ -12,13 +12,13 @@ let screenWidth = window.innerWidth;
 function showOverlay() {
   overlay.style.display = "block";
   setTimeout(() => {
-    overlay.style.width = "100vw";
-    overlay.style.height = "100vh";
+    overlay.style.width = "100%";
+    overlay.style.height = "100%";
   }, 10);
   card.style.display = "block";
   setTimeout(() => {
-    if (screenWidth <= 425) {
-      card.style.width = "75vw";
+    if (screenWidth <= 375) {
+      card.style.width = "90vw";
       card.style.height = "90vh";
     } else {
       card.style.width = "31.25rem";

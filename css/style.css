@@ -161,12 +161,13 @@ button:hover{
     transform: translateX(-50%);
 }
 
-@media (max-width: 425px){
+@media (max-width: 375px){
     header{
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
+        width:100%
     }
     #title{
         margin-left:0;
@@ -204,5 +205,6 @@ button:hover{
         width:25px;
         height:25px;
     }
+
 }
 
