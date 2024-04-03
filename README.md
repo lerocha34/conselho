@@ -1,11 +1,11 @@
-Tarot Objetivo
+#Tarot Objetivo
 O projeto "Tarot Objetivo" é uma aplicação web que oferece conselhos baseados no tarô de forma simples e objetiva. Os usuários podem fazer uma pergunta simples e receber um conselho correspondente a uma carta de tarô.
 
-Funcionalidades
-Solicitar Conselho de Tarô: Os usuários podem clicar no botão "Conselho" para receber um conselho aleatório baseado em uma carta de tarô.
-Visualização Simples: O conselho é exibido de forma clara e direta na tela, proporcionando uma experiência objetiva ao usuário.
-Responsividade: A aplicação é responsiva e funciona bem em dispositivos móveis e desktops.
-Como Usar
+##Funcionalidades
+####Solicitar Conselho de Tarô:#### Os usuários podem clicar no botão "Conselho" para receber um conselho aleatório baseado em uma carta de tarô.
+####Visualização Simples:#### O conselho é exibido de forma clara e direta na tela, proporcionando uma experiência objetiva ao usuário.
+####Responsividade:#### A aplicação é responsiva e funciona bem em dispositivos móveis e desktops.
+##Como Usar
 Clone este repositório em seu ambiente local.
 Abra o arquivo index.html em seu navegador da web.
 Clique no botão "Conselho" para receber um conselho de tarô.
