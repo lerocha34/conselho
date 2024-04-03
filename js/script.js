@@ -19,7 +19,7 @@ function showOverlay() {
   setTimeout(() => {
     if (screenWidth <= 425) {
       card.style.width = "75vw";
-      card.style.height = "95vh";
+      card.style.height = "90vh";
     } else {
       card.style.width = "31.25rem";
       card.style.height = "37.5rem";
