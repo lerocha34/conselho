@@ -7,6 +7,7 @@ let cardTitle = document.getElementById("card-title");
 let cardNumber = document.getElementById("card-number");
 let cardAdvice = document.getElementById("card-advice");
 let cardClose = document.getElementById("card-close");
+let screenWidth = window.innerWidth;
 
 function showOverlay() {
   overlay.style.display = "block";
@@ -16,8 +17,13 @@ function showOverlay() {
   }, 10);
   card.style.display = "block";
   setTimeout(() => {
-    card.style.width = "31.25rem";
-    card.style.height = "37.5rem";
+    if (screenWidth <= 425) {
+      card.style.width = "75vw";
+      card.style.height = "95vh";
+    } else {
+      card.style.width = "31.25rem";
+      card.style.height = "37.5rem";
+    }
   }, 1);
 
   let sort = Math.floor(Math.random() * (21 - 0 + 1) + 0);

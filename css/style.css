@@ -161,7 +161,7 @@ button:hover{
     transform: translateX(-50%);
 }
 
-@media (max-width: 20rem){
+@media (max-width: 425px){
     header{
         display:flex;
         flex-direction:column;
@@ -179,8 +179,27 @@ button:hover{
         margin-left:.125rem;
         margin-right:.125rem;
     }
-
-    
-    
+    #card-title{
+        font-size:20px;
+        margin:0;
+    }
+    #card-number{
+        font-size:20px;
+        margin-left:5px;
+    }
+    #card-advice{
+        font-size:20px;
+    }
+    #card-image{
+        width:90%;
+        
+    }
+    #contato-area{
+        font-size:10px;
+    }
+    .social-icon{
+        width:25px;
+        height:25px;
+    }
 }
 
