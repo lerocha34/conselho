@@ -179,6 +179,9 @@ button:hover{
         margin-left:.125rem;
         margin-right:.125rem;
     }
+    #card-area{
+        margin-top:20px;
+    }
     #card-title{
         font-size:20px;
         margin:0;
