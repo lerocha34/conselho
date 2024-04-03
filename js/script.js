@@ -6,6 +6,7 @@ let cardImage = document.getElementById("card-image");
 let cardTitle = document.getElementById("card-title");
 let cardNumber = document.getElementById("card-number");
 let cardAdvice = document.getElementById("card-advice");
+let cardClose = document.getElementById("card-close");
 
 function showOverlay() {
   overlay.style.display = "block";
@@ -15,8 +16,8 @@ function showOverlay() {
   }, 10);
   card.style.display = "block";
   setTimeout(() => {
-    card.style.width = "500px";
-    card.style.height = "600px";
+    card.style.width = "31.25rem";
+    card.style.height = "37.5rem";
   }, 1);
 
   let sort = Math.floor(Math.random() * (21 - 0 + 1) + 0);
@@ -159,19 +160,20 @@ function showOverlay() {
 }
 
 function offOverlay() {
-  overlay.style.width = "10px";
-  overlay.style.height = "10px";
+  overlay.style.width = ".625rem";
+  overlay.style.height = ".625rem";
   setTimeout(() => {
     overlay.style.display = "none";
   }, 50);
 
-  card.style.width = "10px";
-  card.style.height = "10px";
+  card.style.width = ".625rem";
+  card.style.height = ".625rem";
   setTimeout(() => {
     card.style.display = "none";
   }, 50);
 }
 
-missao.addEventListener("click", showOverlay);
+//missao.addEventListener("click", showOverlay);
 conselho.addEventListener("click", showOverlay);
 overlay.addEventListener("click", offOverlay);
+cardClose.addEventListener("click", offOverlay);
