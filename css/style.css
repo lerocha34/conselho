@@ -206,6 +206,9 @@ button:hover{
         width:25px;
         height:25px;
     }
+    #card-top-area{
+        margin-top:30px;
+    }
 
 }
 
