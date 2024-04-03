@@ -38,7 +38,14 @@ header{
     height:.125rem;
     background-color:#D4AF37;
 }
+#title-area{
+    display:flex;
+    align-items:center;
+}
 
+#title-area img{
+    width:140px;
+}
 #title{
     margin-left:.625rem;
     text-shadow: .125rem .1875rem .3125rem #000;
